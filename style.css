@@ -62,7 +62,7 @@ ul li iframe {
     iframe {
         border: 0.2px solid blue;
         width: 100%;
-        height: 100px;
+        height: 150px; /* Increased height */
     }
     header h1 {
         margin: 4px;
@@ -95,7 +95,7 @@ ul li iframe {
     iframe {
         border: 0.5px solid blue;
         width: 100%;
-        height: 150px;
+        height: 200px; /* Increased height */
     }
     header h1 {
         margin: 10px;
@@ -162,4 +162,3 @@ ul li iframe {
         list-style: inside;
     }
 }
-
