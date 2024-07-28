@@ -1,50 +1,54 @@
-*{
-    font-family:  "Noto Kufi Arabic", sans-serif;
-    color: white;
+@media screen and (min-width:768px){
+    *{
+        font-family:  "Noto Kufi Arabic", sans-serif;
+        color: white;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+        background-color: #eee;
+    
+    }
+    header ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin: 20px;
+    }
+    header ul li a{
+        text-decoration: none;
+        color: blueviolet;
+    }
+    header h1{
+        margin: 20px;
+        color: black;
+    }
+    
+    body{
+            background-image: url(hakim.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    iframe{
+        border: 1px solid blue;
+    }
+    .video-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    ul li iframe{
+        margin: 0 auto;
+    }
+    video{
+        width: 100%;
+    }
+    .ovrlay ul{
+        list-style :inside ;
+    }
 }
-.head{
-    display: flex;
-    justify-content: space-between;
-    background-color: #eee;
 
-}
-header ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin: 20px;
-}
-header ul li a{
-    text-decoration: none;
-    color: blueviolet;
-}
-header h1{
-    margin: 20px;
-    color: black;
-}
 
-body{
-        background-image: url(hakim.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-iframe{
-    border: 1px solid blue;
-}
-.video-container{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-ul li iframe{
-    margin: 0 auto;
-}
-video{
-    width: 100%;
-}
-.ovrlay ul{
-    list-style :inside ;
-}
 @media screen and (max-width:768px){
     header ul{
         list-style: none;
