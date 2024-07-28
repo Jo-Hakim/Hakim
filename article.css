@@ -1,0 +1,49 @@
+*{
+    font-family:  "Noto Kufi Arabic", sans-serif;
+    color: white;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 29px;
+}
+p{
+    font-size: 24px;
+    color: white !important;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+header h1{
+    margin: 20px;
+    color: black;
+}
+body{
+    background-image: url(hakim.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body #ul{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    color: black;
+}
