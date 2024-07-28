@@ -49,7 +49,7 @@
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
     header ul{
         list-style: none;
         display: flex;
@@ -62,10 +62,14 @@
     header h1{
         margin: 5px;
         color: black;
+        font-size: 10px;
     }
     .video-container{
         display: flex;
         flex-direction: column;
         gap: 12.5px;
+    }
+    p{
+        font-size: 8px;
     }
 }
