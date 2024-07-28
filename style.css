@@ -49,7 +49,7 @@
 }
 
 
-@media screen and (width:240px){
+@media screen and (max-width:500px){
     header ul{
         list-style: none;
         display: flex;
