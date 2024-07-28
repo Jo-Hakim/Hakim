@@ -45,3 +45,23 @@ video{
 .ovrlay ul{
     list-style :inside ;
 }
+@media screen and (min-width:768px){
+    header ul{
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        margin: 5px;
+    }
+    iframe{
+        border: 0.25px solid blue;
+    }
+    header h1{
+        margin: 5px;
+        color: black;
+    }
+    .video-container{
+        display: flex;
+        flex-direction: column;
+        gap: 12.5px;
+    }
+}
